@@ -15,3 +15,6 @@ VOLUME /var/ipsec
 EXPOSE 500/udp 4500/udp
 
 CMD /usr/local/bin/start-vpn
+
+
+ENV HOST vpn.example.com
